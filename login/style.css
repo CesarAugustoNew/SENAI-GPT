@@ -1,0 +1,23 @@
+.titulo {
+    font-size: 76px;
+}
+
+.robo-image {
+    background-color: darkblue;
+    width: 50vw;
+    height: 100vh;
+}
+
+.page-container {
+    display: flex;
+}
+
+.login-container{
+    background-color: saddlebrown;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+}
