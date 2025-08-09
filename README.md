@@ -1,2 +1,2 @@
 # SENAI-GPT
-Criando uma copia do ChatGPT (SENAI)
+Projeto ChatGPT (SENAI)
