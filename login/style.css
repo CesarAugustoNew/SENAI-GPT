@@ -1,23 +1,30 @@
-.titulo {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para que o padding e margin sejam calculados corretamente*/
+}
+/* Estilo para a página de login do ChatGPT */
+.page-container {
+    display: flex; /*Flexbox para alinhar os itens*/
+}
+/* imagem do robo */
+.robo-image {
+    background-color: aqua;
+    width: 50vw; /*50 % do tamanho horizontal do monitor*/
+    height: 100vh; /*50% do tamanho vertical do monitor*/
+}
+
+/* login */
+.titulo-login {
     font-size: 76px;
 }
 
-.robo-image {
-    background-color: darkblue;
-    width: 50vw;
-    height: 100vh;
-}
-
-.page-container {
-    display: flex;
-}
-
-.login-container{
-    background-color: saddlebrown;
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center ;
+.login {
+    background-color: burlywood;
+    width: 50vw; /*50 % do tamanho horizontal do monitor*/
+    height: 100vh; /*50% do tamanho vertical do monitor*/
+    display: flex; /*Flexbox para alinhar os itens*/
+    flex-direction: column; /*Coluna para alinhar os itens verticalmente*/
+    align-items: center; /*Alinha os itens no centro horizontalmente*/
+    justify-content: center; /*Alinha os itens no centro verticalmente*/
 }
