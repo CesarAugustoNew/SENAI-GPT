@@ -1,30 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /*Para que o padding e margin sejam calculados corretamente*/
-}
-/* Estilo para a página de login do ChatGPT */
-.page-container {
-    display: flex; /*Flexbox para alinhar os itens*/
-}
-/* imagem do robo */
-.robo-image {
-    background-color: aqua;
-    width: 50vw; /*50 % do tamanho horizontal do monitor*/
-    height: 100vh; /*50% do tamanho vertical do monitor*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  /* Todos os elementos */
+
+  padding: 0px; /* Margem interna */
+  margin: 0px; /* Margem externa */
+  box-sizing: border-box; /* Muda a estrutura de espacamento */
+  font-family: "Inter";
 }
 
 /* login */
 .titulo-login {
-    font-size: 76px;
+  font-size: 76px;
+}
+/* Estilo para a página de login do ChatGPT */
+.page-container {
+  display: flex; /*Flexbox para alinhar os itens*/
+}
+/* imagem do robo */
+.robo-image {
+  background-image: url("../assets/imgs/Rectangle\ 1.png");
+  background-size: cover;
+  background-position: 0px -100px;
+
+  width: 50vw; /*50 % do tamanho horizontal do monitor*/
+  height: 100vh; /*50% do tamanho vertical do monitor*/
 }
 
-.login {
-    background-color: burlywood;
-    width: 50vw; /*50 % do tamanho horizontal do monitor*/
-    height: 100vh; /*50% do tamanho vertical do monitor*/
-    display: flex; /*Flexbox para alinhar os itens*/
-    flex-direction: column; /*Coluna para alinhar os itens verticalmente*/
-    align-items: center; /*Alinha os itens no centro horizontalmente*/
-    justify-content: center; /*Alinha os itens no centro verticalmente*/
+.login-container {
+  width: 50vw; /*50 % do tamanho horizontal do monitor*/
+  height: 100vh; /*50% do tamanho vertical do monitor*/
+  display: flex; /*Flexbox para alinhar os itens*/
+  flex-direction: column; /*Coluna para alinhar os itens verticalmente*/
+  align-items: center; /*Alinha os itens no centro horizontalmente*/
+  justify-content: center; /*Alinha os itens no centro verticalmente*/
+}
+
+.login-container img {
+  height: 50px;
 }
