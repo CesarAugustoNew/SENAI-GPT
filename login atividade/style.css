@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-container{
+    display: flex;
+}
+
+.robo-image{
+    background-image:url(../assets/imgs/Rectangle\ 1.png);
+    width: 50vw;
+    height: 100vh;
+}
+
+.login{
+    
+    width: 50vw;
+    height: 100vh;
+    
+
+}
