@@ -12,6 +12,8 @@
 /* login */
 .titulo-login {
   font-size: 76px;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
 /* Estilo para a página de login do ChatGPT */
 .page-container {
@@ -21,7 +23,7 @@
 .robo-image {
   background-image: url("../assets/imgs/Rectangle\ 1.png");
   background-size: cover;
-  background-position: 0px -100px;
+  background-position: 0px -100;
 
   width: 50vw; /*50 % do tamanho horizontal do monitor*/
   height: 100vh; /*50% do tamanho vertical do monitor*/
@@ -38,4 +40,26 @@
 
 .login-container img {
   height: 50px;
+}
+
+.inpt {
+
+  padding: 18px; /* Margem interna */
+  background-color: #F7F9FB;
+  width: 377px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.btt {
+  cursor: pointer;
+  padding: 23px;
+  color: white; /* Cor da fonte */ 
+  background-color: #1C1C1C; /* Cor de funto */ 
+  width: 377px; /* Largura da tela */
+  border-radius: 10px; /* bordas arredondadas */ 
+  font-size: 16px;
+  border: none;
+  
 }
