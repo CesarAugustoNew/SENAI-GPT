@@ -16,11 +16,13 @@
     width: 50vw;
     height: 100vh;
     background-size: cover;
+    background-position: 50%;
+    
 }   
 
 .login{  
     width: 50vw;
-    height: 100vh;
+    height: 100vh;  
     display: flex; 
     flex-direction: column; 
     align-items: center; 
