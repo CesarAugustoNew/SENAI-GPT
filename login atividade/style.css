@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
+    font-family:inter;
 }
 
 .page-container{
@@ -9,15 +12,42 @@
 }
 
 .robo-image{
-    background-image:url(../assets/imgs/Rectangle\ 1.png);
+    background-image:url(../assets/imgs/i291642.jpeg);
     width: 50vw;
     height: 100vh;
-}
+    background-size: cover;
+}   
 
-.login{
-    
+.login{  
     width: 50vw;
     height: 100vh;
-    
-
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgba(0, 0, 0, 0.903);
 }
+
+.titulo-login{
+    font-size: 76px;
+    color: white;    
+}
+
+
+.input{
+    width: 337px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.botao{
+    width: 337px;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
