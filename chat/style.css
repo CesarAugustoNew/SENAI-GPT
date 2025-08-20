@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+
+.menu{
+    background-color: gray;
+    width: 350px;
+    height: 100vh;
+    align-items: center;
+}
+
+.menu_1{
+    background-color: red;
+    width: 350px;
+    height: 220px;
+}
+.menu_2{
+    
+    background-color: blue;
+    width: 350px;
+    height: 220px;
+    
+}
+

@@ -24,7 +24,6 @@
   background-image: url("../assets/imgs/Rectangle\ 1.png");
   background-size: cover;
   background-position: 0px -100;
-
   width: 50vw; /*50 % do tamanho horizontal do monitor*/
   height: 100vh; /*50% do tamanho vertical do monitor*/
 }
