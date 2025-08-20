@@ -23,7 +23,11 @@
 .robo-image {
   background-image: url("../assets/imgs/Rectangle\ 1.png");
   background-size: cover;
+<<<<<<< HEAD
   background-position: 0px -100;
+=======
+  background-position: 0px -100; /* MUDAR PARA CENTER DEPOIS*/
+>>>>>>> 446b38b0333862cd4d60ca99b0518cf2eb2c70e1
   width: 50vw; /*50 % do tamanho horizontal do monitor*/
   height: 100vh; /*50% do tamanho vertical do monitor*/
 }
@@ -43,7 +47,7 @@
 
 .inpt {
 
-  padding: 18px; /* Margem interna */
+  padding: 19px; /* Margem interna */
   background-color: #F7F9FB;
   width: 377px;
   border: 1px solid #ccc;
@@ -54,8 +58,8 @@
 .btt {
   cursor: pointer;
   padding: 23px;
-  color: white; /* Cor da fonte */ 
-  background-color: #1C1C1C; /* Cor de funto */ 
+  color: rgb(255, 255, 255); /* Cor da fonte */ 
+  background-color: #000000; /* Cor de funto */ 
   width: 377px; /* Largura da tela */
   border-radius: 10px; /* bordas arredondadas */ 
   font-size: 16px;
