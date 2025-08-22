@@ -41,24 +41,14 @@
   flex-direction: column;
 }
 
-.img {
+.logo {
   margin-left: 30%;
   margin-top: 20%;
   padding: 8px;
 }
 
-.novo-chat-button {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 4px;
-  padding: 20px;
-}
-
 .novo_chat {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 4px;
+  margin: 0px 20px 4px 20px;
   padding: 20px;
   color: white;
   background-color: black;
@@ -67,60 +57,57 @@
 }
 
 .conversa {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 4px;
-  padding: 20;
+  margin: 0px 20px 4px 20px;
+  padding: 20px;
   font-size: 16px;
 }
 
-.conteudo {
+.dicas_container {
   display: flex;
   margin-left: 30%;
+  margin-top: 20px;
   font-weight: 400;
 }
 
-.examples {
-  text-align: center;
-  width: 300px;
-  height: 300px;
-  font-weight: 400;
-} 
-
-.compabilities {  
+.dicas_item {
   margin-left: 40px;
-  text-align: center;
-  width:300px;
-  height:300px;
-  font-weight: 400;
-}
-
-.limitations {
-  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 300px;
   height: 300px;
   font-weight: 400;
 }
 
-.p{
-    color: black;
-    padding: 20px;
+.p {
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: #f7f9fb;
 }
 
-.span{
-    font-weight: bolder;
-    font-size: 20px;
+.icone p {
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.span {
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .input {
-    width: 760px;
-    height: 56px;
-    border-radius: 20px;
-    display: flex;
-    margin-left: 20%;
-    margin-top: 110px;  
-    border: none;
-    background-color: #F7F9FB;
+  width: 760px;
+  height: 56px;
+  border-radius: 20px;
+  display: flex;
+  margin: 110px 0px 0px 20%;
+  border: none;
+  background-color: #f7f9fb;
 }
 
+.input-container{
+  
+}
