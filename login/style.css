@@ -23,9 +23,8 @@
 .robo-image {
   background-image: url("../assets/imgs/Rectangle\ 1.png");
   background-size: cover;
-
-
-  background-position: 0px -100; /* MUDAR PARA CENTER DEPOIS*/
+  background-position: 0px; /* MUDAR PARA CENTER DEPOIS*/
+  background-repeat: no-repeat; /* IMPEDIR QUE A IMAGEM SE DUPLIQUE */
   width: 50vw; /*50 % do tamanho horizontal do monitor*/
   height: 100vh; /*50% do tamanho vertical do monitor*/
 }
