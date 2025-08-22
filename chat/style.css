@@ -101,13 +101,17 @@
 .input {
   width: 760px;
   height: 56px;
-  border-radius: 20px;
-  display: flex;
-  margin: 110px 0px 0px 20%;
+  background-color: #F7F9FB;
   border: none;
-  background-color: #f7f9fb;
+  border-radius: 10px;
+  
 }
 
 .input-container{
-  
+  margin-top: 200px;
+  margin-left: 350px;
+  background-color: #F7F9FB;
+  border-radius: 10px;
+
+
 }
