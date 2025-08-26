@@ -4,3 +4,12 @@ if (idade >= 18) {
 } else {
   alert(`Voce e menor de idade`);
 }
+
+
+
+
+
+
+
+
+
