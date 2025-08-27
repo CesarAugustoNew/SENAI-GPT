@@ -1,24 +1,19 @@
+let numero1 = Number(prompt(`Digite o seu primeiro numero`))
+let numero2 = Number(prompt(`Digite o seu segundo numero`))
+let operacao = prompt(`escolha uma operacao +, -, *, /`)
 
-let numero1 = parseFloat(prompt("Digite o primeiro número:"));
-let numero2 = parseFloat(prompt("Digite o segundo número:"));
-let operacao = prompt("Digite a operação (+, -, *, /):");
+let resultado = 0
 
-let resultado;
-
-if (operacao === "+") {
+if (operacao == `+`){
     resultado = numero1 + numero2;
-} else if (operacao === "-") {
-    resultado = numero1 - numero2;
-} else if (operacao === "*") {
-    resultado = numero1 * numero2;
-} else if (operacao === "/") {
-    if (numero2 !== 0) {
-        resultado = numero1 / numero2;
-    } else {
-        resultado = "Erro: Divisão por zero não permitida.";
-    }
-} else {
-    resultado = "Operação inválida!";
+}else if (operacao == `-`){
+    resultado = numero1 - numero2;    
+}else if (operacao == `*`){
+    resultado = numero1 * numero2;   
+}else if (operacao == `/`){
+    resultado = numero1 / numero2;
+}else {
+    alert("Opcao invalida!")
 }
-
-alert("Resultado: " + resultado);
+alert(resultado)
+    

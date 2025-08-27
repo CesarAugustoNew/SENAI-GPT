@@ -1,5 +1,5 @@
 // Solicita o valor da compra
-let valorCompra = parseFloat(prompt("Digite o valor da compra:"));
+let valorCompra = Number(prompt("Digite o valor da compra:"));
 
 // Verifica se o valor da compra é maior que 100
 if (valorCompra > 100) {

@@ -1,4 +1,4 @@
-let numero = prompt('Digite um numero')
+let numero = Number(prompt('Digite um numero'))
 if (numero > 0) {
   alert('Seu numero e positivo')
 }else if (numero < 0){
